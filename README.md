@@ -28,7 +28,7 @@ The analysis is based on an events log table capturing user interactions:
 | amount | text | YES | |
 | traffic_source | text | YES | |
 
-**Dataset Note:** The `user_events.csv` contains [9381] rows of [real anonymized] e-commerce data.
+**Dataset Note:** The `user_events.csv` contains 9381 rows of real anonymized e-commerce data.
 
 ## Final Recommendations (Verdict)
 
