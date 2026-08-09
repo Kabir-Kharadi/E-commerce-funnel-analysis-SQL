@@ -8,7 +8,10 @@ It helped me strengthen real SQL skills in funnel analysis, conversion rate trac
 
 ## Files in this Repository
 
+## Files in this Repository
+
 *   `Funnel_Analysis.sql` &larr; SQL queries used to extract funnel data (main file)
+*   `user_events.csv` &larr; The raw dataset containing user interaction logs
 *   `README.md` &larr; This file
 
 ## Database Schema
@@ -25,6 +28,7 @@ The analysis is based on an events log table capturing user interactions:
 | amount | text | YES | |
 | traffic_source | text | YES | |
 
+**Dataset Note:** The `user_events.csv` contains [9381] rows of [real anonymized] e-commerce data.
 
 ## Final Recommendations (Verdict)
 
