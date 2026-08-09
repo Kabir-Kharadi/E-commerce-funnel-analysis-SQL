@@ -2,14 +2,13 @@
 
 ## About the Project
 
-This is my fourth data project. I analyzed an e-commerce sales funnel using SQL to track the customer journey from initial pageview to final purchase. The goal was to identify drop-off points, evaluate marketing channel efficiency, and provide actionable business recommendations to improve conversion rates and optimize ad spend.
+I analyzed an e-commerce sales funnel using SQL to track the customer journey from initial pageview to final purchase. The goal was to identify drop-off points, evaluate marketing channel efficiency, and provide actionable business recommendations to improve conversion rates and optimize ad spend.
 
 It helped me strengthen real SQL skills in funnel analysis, conversion rate tracking, and translating raw data into strategic business decisions.
 
 ## Files in this Repository
 
 *   `Funnel_Analysis.sql` &larr; SQL queries used to extract funnel data (main file)
-*   `schema.png` &larr; Database table structure
 *   `README.md` &larr; This file
 
 ## Database Schema
@@ -26,10 +25,6 @@ The analysis is based on an events log table capturing user interactions:
 | amount | text | YES | |
 | traffic_source | text | YES | |
 
-**Funnel Query Results Snapshot:**
-`pageview` (4268) &rarr; `addtocart` (1332) &rarr; `checkout` (951) &rarr; `paymentinfo` (768) &rarr; `purchase` (708)
-
-Note: You can use the provided schema diagram to understand the data structure for your own practice.
 
 ## Final Recommendations (Verdict)
 
